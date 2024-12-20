@@ -27,10 +27,10 @@ The following files are used for this project:
 
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
-### Data Modeling
+### Data Modeling: ERD found under `EmployeeSQL` folder in `ERD.png`
 - Inspect the CSV files and sketch an Entity Relationship Diagram (ERD) of the tables. You can use tools like [QuickDBD](https://www.quickdatabasediagrams.com/) to create the ERD.
   
-### Data Engineering
+### Data Engineering: Table schema found under `EmployeeSQL`
 1. **Table Schema Creation**:  
    Use the provided information to create a table schema for each of the six CSV files. Ensure you define:
    - Data types (e.g., `INT`, `VARCHAR`, `DATE`, etc.)
@@ -49,7 +49,7 @@ This Challenge is divided into three parts: data modeling, data engineering, and
    - Use the correct import order to avoid foreign key issues.
    - Account for headers in the CSV files when importing.
 
-### Data Analysis
+### Data Analysis: Query analysis found under `EmployeeSQL` in `Queries_Data_Analysis.sql`
 Once the data is imported, use SQL queries to answer the following questions:
 
 1. **Employee Details**:  
@@ -76,3 +76,4 @@ Once the data is imported, use SQL queries to answer the following questions:
 8. **Employee Last Name Frequency Count**:  
    List the frequency counts, in descending order, of all the employee last names (i.e., how many employees share each last name).
 
+Code Source: https://bootcampspot.instructure.com/courses/6252/external_tools/313
